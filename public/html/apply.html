@@ -1,0 +1,194 @@
+<div class="container">
+	<h3 class="home">Li’l Skirts™ Stylist Application</h3>
+	<div class="strike-across"></div>
+	<h4 class="state">Li'l Skirts Trunk Show Stylist Application</h4>
+	<p class="parag">We are SO EXCITED that you are interested in our Stylist Maven opportunity. Please complete the form below and we will get back with you soon.</p>
+	<div class="strike-across"></div>
+	<table>
+		<thead>
+			<tr>
+				<th class="form-txt">First Name</th>
+				<th class="form-txt">Last Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="space"><input class="form-control" id="format" ng-model="application.first"></td>
+				<td><input class="form-control" id="format" ng-model="application.last"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Address</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format" ng-model="application.address"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">City</th>
+				<th class="form-txt">State</th>
+				<th class="form-txt">Zip</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="space"><input class="form-control" id="format" ng-model="application.city"></td>
+				<td class="space"><input class="form-control" id="format" ng-model="application.state"></td>
+				<td><input class="form-control" id="format" ng-model="application.zip"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format" ng-model="application.email"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Cell #</th>
+				<th class="form-txt">Home #</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="space"><input class="form-control" id="format" ng-model="application.cell"></td>
+				<td><input class="form-control" id="format" ng-model="application.home"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Birthday</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Month</th>
+				<th class="form-txt">Day</th>
+				<th class="form-txt">Year</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td class="space"><input class="form-control" id="format" ng-model="application.month"></td>
+				<td class="space"><input class="form-control" id="format" ng-model="application.day"></td>
+				<td><input class="form-control" id="format" ng-model="application.year"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Facebook URL</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format" ng-model="application.facebook"></td>
+			</tr>
+		</tbody>
+	</table>
+	<table>
+		<thead>
+			<tr>
+				<th class="form-txt">Who referred you to Li'l Skirts? (Please list name of the referring Stylist Maven, event attended or web search engine!)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format2" ng-model="application.referal"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">How would your friends describe you? (Funny, short, a social butterfly, professional, loving, etc.)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><textarea class="form-control" id="format2" ng-model="application.description"></textarea></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Please tell us a little bit about your work history, your interests, your hobbies and any volunteer work you enjoy (stay at home mom and handcrafter counts!!)</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><textarea class="form-control" id="format2" ng-model="application.work"></textarea></td>
+			</tr>
+		</tbody>
+	</table>
+	<button class="btn btn-default" id="submit-app" ng-click="submitApp()" data-toggle="modal" data-target="#modal-2">SUBMIT</button>
+</div>
+<div class="container-fluid">
+	<h6 class="pink">© 2016 Li'l Skirts</h6>
+</div>
+
+<!-- MODALS -->
+		<div class="modal" id="modal-2">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header" id="header">
+						<button type="button" id="close" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Li'l skirts</h3>
+					</div>
+					<div class="modal-body" id="body">
+						<h3>Thank you for your application.</h3>
+					</div>
+					<div class="modal-footer" id="footer">		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="modal-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title"></h3>
+					</div>
+					<div class="modal-body">
+						<form action="/auth/login" method="post">
+						<div class="form-group">
+							<input class="form-control" type="username" name="username" placeholder="Username">
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="password" name="password" placeholder="Password">
+						</div>
+						<button type="submit" id="submit" class="btn btn-default">login</button>
+					</form>
+					</div>
+					<div class="modal-footer">		
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

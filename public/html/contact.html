@@ -1,0 +1,101 @@
+<div class="container">
+	<h3 class="home">Contact</h3>
+	<div class="strike-across"></div>
+	<div class="about-con">
+		<img class="contact-pic" src="/images/contactImg.jpg">
+	</div>
+	<h4 class="state">Have questions? Need more information? Let us know!</h4>
+	<table>
+		<thead>
+			<tr>
+				<th class="form-txt">Name</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format" ng-model="submission.name"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Email</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format" ng-model="submission.email"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Subject</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><input class="form-control" id="format" ng-model="submission.subject"></td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr>
+				<th class="form-txt">Message</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td><textarea class="form-control" id="format" ng-model="submission.message"></textarea></td>
+			</tr>
+		</tbody>
+	</table>
+	<button class="btn btn-default" id="submit-sub" ng-click="submitSub()" data-toggle="modal" data-target="#modal-1">SUBMIT</button>
+</div>
+<div class="container-fluid">
+	<h6 class="pink">© 2016 Li'l Skirts</h6>
+</div>
+<!-- MODALS -->
+		<div class="modal" id="modal-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header" id="header">
+						<button type="button" id="close" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title">Li'l skirts</h3>
+					</div>
+					<div class="modal-body" id="body">
+						<h3>Thank you for your submission.</h3>
+					</div>
+					<div class="modal-footer" id="footer">		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal" id="modal-1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+						<h3 class="modal-title"></h3>
+					</div>
+					<div class="modal-body">
+						<form action="/auth/login" method="post">
+						<div class="form-group">
+							<input class="form-control" type="username" name="username" placeholder="Username">
+						</div>
+						<div class="form-group">
+							<input class="form-control" type="password" name="password" placeholder="Password">
+						</div>
+						<button type="submit" id="submit" class="btn btn-default">login</button>
+					</form>
+					</div>
+					<div class="modal-footer">		
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+<div class="container">
+	<h1>Applications:</h1>
+	<div ng-repeat="application in applicationsArray">
+		<div class="res-con">
+			<h4>{{application.first}} {{application.last}} | {{application.email}}</h4>
+			<h4>{{application.address}}, {{application.city}} {{application.state}}, {{application.zip}}</h4>
+			<h4>{{application.cell}} | {{application.home}}</h4>
+			<h4>{{application.month}} {{application.day}} {{application.year}}</h4>
+			<h4>{{application.facebook}}</h4>
+			<h4>{{application.referal}}</h4>
+			<h4>{{application.description}}</h4>
+			<h4>{{application.work}}</h4>
+			<h4>{{application.date | date: 'MM/dd/yyyy'}}<button class="btn btn-danger" id="item-remove" ng-click="deleteApp(application._id)">Delete</button></h4>
+		</div>
+	</div>
+</div>

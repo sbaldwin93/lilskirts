@@ -1,0 +1,11 @@
+<div class="container">
+	<h1>Inquiries:</h1>
+	<div ng-repeat="submission in submissionsArray">
+		<div class="res-con">
+			<h4>{{submission.name}} | {{submission.email}}</h4>
+			<h4>{{submission.subject}}</h4>
+			<h4>{{submission.message}}</h4>
+			<h4>{{submission.date | date: 'MM/dd/yyyy'}}<button class="btn btn-danger" id="item-remove" ng-click="deleteSub(submission._id)">Delete</button></h4>
+		</div>
+	</div>
+</div>

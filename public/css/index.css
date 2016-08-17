@@ -1,0 +1,278 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+.image { 
+   position: relative; 
+   width: 100%;
+   margin: 0px;
+   padding: 0px; 
+}
+img {
+	width: 100vw;
+	height: 30vh;
+}
+.col-xs-2 {
+	border: 1px solid gray;
+	height: 100%;
+}
+.row {
+	margin-top: 5px;
+}
+.home {
+	color: #ff00ff;
+	text-align: center;
+}
+.strike-across {
+	height: 1px;
+	width: 100%;
+	background-color: #ff00ff;
+	margin-bottom: 5px;
+}
+.para {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+}
+.para-check {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+	color: #ff00ff;
+}
+.etsy {
+	height: 100px;
+	width: 150px;
+	margin-bottom: 5px;
+}
+.co {
+	height: 200px;
+	width: 200px;
+}
+.social-icons {
+	display: inline-block;
+}
+.the-icons {
+	display: inline;
+	height: 35px;
+	width: 35px;
+	border: 3px solid #ff00ff;
+	padding: 3px;
+	border-radius: 100%;
+	margin-bottom: 15px;
+	box-shadow: 5px 5px 5px #888888;
+}
+.about-pics {
+	height: 350px;
+	width: 350px;
+}
+.state {
+	color: #ff00ff;
+	font-size: 18px;
+}
+.location {
+	color: #00cc99;
+	font-size: 18px;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #ff00ff;
+}
+.navbar-default .navbar-toggle {
+	border-color: #ff00ff;
+}
+.about-con {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.text-align {
+	width: 100%;
+	text-align: center;
+}
+.pink {
+	color: #ff00ff;
+}
+body {
+	background-color: white;
+}
+.navbar-default .navbar-brand {
+	color: #ff00ff;
+	font-size: 28px;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.navbar {
+	background-color: white;
+	margin: 0px;
+	border-radius: 0px;
+	border-top: 1px solid #ff00ff;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #ff00ff;
+	font-size: 18px;
+}
+.nav-title {
+	color: #00cccc;
+	font-family: 'Montserrat', sans-serif;
+}
+.nav-con {
+	color: #666666;
+	font-family: 'Montserrat', sans-serif;
+}
+.separator {
+	height: 1px;
+	width: 100%;
+	background-color: #e7e7e7;
+}
+.logo {
+	font-family: 'Josefin Sans', sans-serif;
+	display: inline-block;
+	color: #00cccc;
+}
+.price {
+	display: inline-block;
+	color: #00cccc;
+}
+.contact {
+	display: inline-block;
+	color: #00cccc;
+}
+.carousel-inner {
+	height: 270px;
+	width: 100%;
+}
+.picture-1 {
+	margin: auto;
+	width: 100%;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.20),
+		rgba(38, 38, 38, 0.20)
+		),
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-2 {
+	margin: auto;
+	width: 100%;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.20),
+		rgba(38, 38, 38, 0.20)
+		),
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-3 {
+	margin: auto;
+	width: 100%;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.20),
+		rgba(38, 38, 38, 0.20)
+		),
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-4 {
+	margin: auto;
+	width: 100%;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.20),
+		rgba(38, 38, 38, 0.20)
+		),
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-5 {
+	margin: auto;
+	width: 100%;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.20),
+		rgba(38, 38, 38, 0.20)
+		),
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.picture-6 {
+	margin: auto;
+	width: 100%;
+	background:
+	linear-gradient(
+		rgba(38, 38, 38, 0.20),
+		rgba(38, 38, 38, 0.20)
+		),
+	background-size: 100vw 60vh;
+	background-repeat: no-repeat;
+}
+.glyphicon {
+	margin-top: 15vh;
+	border: 1px solid white;
+	border-radius: 100px;
+	padding: 10px;
+	vertical-align: middle;
+	color: white;
+	box-shadow: 0px 0px 20px black;
+}
+.scroll-pics {
+	height: 270px;
+}
+a.left.carousel-control {
+	height: 0px;
+}
+a.right.carousel-control {
+	height: 0px;
+}
+.inline-block {
+	display: inline-block;
+}
+.parags {
+	display: inline-block;
+}
+.location {
+	display: inline-block;
+	line-height: 0px;
+}
+#app-now {
+	background-color: #ff00ff;
+	color: white;
+}
+.form-txt {
+	padding-top: 15px;
+}
+.space {
+	padding-right: 10px;
+}
+#format {
+	width: 30vw;
+}
+#format2 {
+	width: 50vw;
+}
+.form-txt {
+	color: #ff00ff;
+}
+#submit-app {
+	background-color: #ff00ff;
+	color: white;
+	margin-top: 15px;
+	width: 100%;
+}
+#submit-sub {
+	background-color: #ff00ff;
+	color: white;
+	margin-top: 15px;
+}
+.contact-pic {
+	height: 300px;
+	width: 300px;
+}
+.login-con {
+	width: 50vw;
+	margin: auto;
+}
+#submit {
+	width: 100%;
+	background-color: #ff00ff;
+	color: white;
+}
+
